@@ -34,10 +34,12 @@ namespace ElastoSystem
 
             tbusuario.TabIndex = 0;
             tbpassword.TabIndex = 1;
-            string query = "SELECT * FROM elastosystem_login WHERE Usuario='" + tbusuario.Text + "' AND Password='" + tbpassword.Text + "'";
+            string query = "SELECT * FROM elastosystem_login WHERE Usuario = @Usuario AND Password = @Password ";
             MySqlConnection databaseConnection = new MySqlConnection(connectionString);
             MySqlCommand commandDatabase = new MySqlCommand(query, databaseConnection);
             commandDatabase.CommandTimeout = 60;
+            commandDatabase.Parameters.AddWithValue("@Usuario", tbusuario.Text);
+            commandDatabase.Parameters.AddWithValue("@Password", tbpassword.Text);
             MySqlDataReader reader;
 
             try
@@ -60,7 +62,7 @@ namespace ElastoSystem
                 }
                 else
                 {
-                    MessageBox.Show("ERROR en Usuario o Contraseña, vuelve a intentarlo");
+                    MessageBox.Show("ERROR en Usuario o Contraseï¿½a, vuelve a intentarlo");
                 }
             }
             catch (Exception ex)
@@ -142,7 +144,7 @@ namespace ElastoSystem
         {
             tbpassword.UseSystemPasswordChar = true;
 
-            if (tbpassword.Text == "Contraseña")
+            if (tbpassword.Text == "Contraseï¿½a")
             {
                 tbpassword.Text = "";
                 tbpassword.ForeColor = Color.DimGray;
@@ -153,7 +155,7 @@ namespace ElastoSystem
         {
             if (tbpassword.Text == "")
             {
-                tbpassword.Text = "Contraseña";
+                tbpassword.Text = "Contraseï¿½a";
                 tbpassword.ForeColor = Color.DarkGray;
             }
         }
