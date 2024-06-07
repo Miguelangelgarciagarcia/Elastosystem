@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AlmacenBuscadorRegistrosTrabajadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AlmacenLoginExistencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AlmacenRegistrarExistencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="AlmacenTemporal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Almacen_Control.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Almacen_NuevoProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Compras_Administrar_Requisiciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Compras_Proovedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Compras_RequisicionesEnviadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Compras_RequisicionMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ConsumiblesAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Control_Almacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="IndicadorCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Maquinado_Administrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Maquinado_Solicitud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Mtto_InventarioMaquinas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Mtto_Solicitud.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Novedades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NuevoUsuarioRH.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Produccion_Reporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReqSistemas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RFormAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RH_Credencial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SistemasPermisos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ventas_BuscarCotizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ventas_Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ventas_Cotizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Ventas_ListaPrecios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
